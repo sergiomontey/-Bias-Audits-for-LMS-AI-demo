@@ -539,9 +539,7 @@ curl http://localhost:8000/health
 curl http://localhost:8000/metrics  # Prometheus metrics
 ```
 
-## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
 ### Development Setup
 
@@ -571,13 +569,7 @@ git push origin feature/your-feature-name
 - **Testing**: Comprehensive test coverage required
 - **Documentation**: Update docs for new features
 
-## 📚 Documentation
 
-- **[API Documentation](docs/api.md)**: Complete API reference
-- **[User Guide](docs/user-guide.md)**: Dashboard usage instructions
-- **[Developer Guide](docs/developer-guide.md)**: Technical implementation details
-- **[Deployment Guide](docs/deployment.md)**: Production setup instructions
-- **[Statistical Methods](docs/statistical-methods.md)**: Bias analysis methodology
 
 ## 🔍 Use Cases
 
@@ -664,19 +656,6 @@ dashboard:
       metrics: ["active_dashboard_users"]
 ```
 
-## 🏆 Awards & Recognition
-
-- **🥇 Best AI Ethics Tool 2024** - EdTech Innovation Awards
-- **🏅 Excellence in Educational Equity** - Learning Analytics Society
-- **⭐ Top Open Source Project** - GitHub Education Spotlight
-
-## 📞 Support & Community
-
-### Getting Help
-- **📖 Documentation**: [docs.bias-audits-lms-ai.org](https://docs.bias-audits-lms-ai.org)
-- **💬 Discord Community**: [discord.gg/bias-audits-lms-ai](https://discord.gg/bias-audits-lms-ai)
-- **🐛 Issue Tracker**: [GitHub Issues](https://github.com/yourusername/bias-audits-lms-ai/issues)
-- **📧 Email Support**: support@bias-audits-lms-ai.org
 
 ### Community Guidelines
 - Be respectful and inclusive
@@ -686,22 +665,21 @@ dashboard:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Copyright (c) 2025 MONTEYcodes. All rights reserved.
 
-```
-MIT License
+This software and associated documentation files (the "Software") are proprietary 
+to MONTEYcodes and are protected by copyright law.
 
-Copyright (c) 2024 Bias Audits for LMS AI Contributors
+VIEWING PERMITTED: This code is available for viewing, educational, and 
+evaluation purposes only.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+RESTRICTIONS:
+- No commercial use without explicit written permission from MONTEYcodes
+- No redistribution, modification, or derivative works
+- No reverse engineering or decompilation
+- No use in production environments without valid license
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+
 ```
 
 ## 🙏 Acknowledgments
