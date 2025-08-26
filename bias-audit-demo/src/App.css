@@ -1,0 +1,275 @@
+/* App.css - Main application styles */
+
+.App {
+  text-align: left;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Card enhancements */
+.ant-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ant-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-2px);
+}
+
+.ant-card-head {
+  border-bottom: 2px solid #e5e7eb;
+  padding: 16px 24px;
+}
+
+.ant-card-head-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.ant-card-body {
+  padding: 24px;
+}
+
+/* Button enhancements */
+.ant-btn {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ant-btn-primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  border: none;
+  box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.25);
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.3);
+  transform: translateY(-1px);
+}
+
+/* Statistic enhancements */
+.ant-statistic {
+  text-align: center;
+}
+
+.ant-statistic-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.ant-statistic-content {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+/* Timeline enhancements */
+.ant-timeline-item-content {
+  margin-left: 20px;
+  padding: 12px 16px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border-left: 3px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+
+.ant-timeline-item-content:hover {
+  background-color: #f1f5f9;
+  border-left-color: #3b82f6;
+  transform: translateX(4px);
+}
+
+/* Table enhancements */
+.ant-table {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ant-table-thead > tr > th {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-bottom: 2px solid #e5e7eb;
+  font-weight: 600;
+  color: #374151;
+  padding: 16px;
+}
+
+.ant-table-tbody > tr > td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background-color: #f8fafc;
+}
+
+/* Alert enhancements */
+.ant-alert {
+  border-radius: 10px;
+  border: none;
+  padding: 16px 20px;
+  font-weight: 500;
+}
+
+.ant-alert-success {
+  background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+  color: #047857;
+}
+
+.ant-alert-error {
+  background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+  color: #dc2626;
+}
+
+.ant-alert-warning {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  color: #d97706;
+}
+
+.ant-alert-info {
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  color: #1d4ed8;
+}
+
+/* Progress enhancements */
+.ant-progress-bg {
+  background: linear-gradient(90deg, #10b981 0%, #3b82f6 100%);
+}
+
+/* Tab enhancements */
+.ant-tabs {
+  margin-top: 24px;
+}
+
+.ant-tabs-tab {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 12px 20px;
+  margin-right: 8px;
+  border-radius: 8px 8px 0 0;
+  transition: all 0.2s ease;
+}
+
+.ant-tabs-tab:hover {
+  background-color: #f8fafc;
+  color: #3b82f6;
+}
+
+.ant-tabs-tab-active {
+  background-color: white;
+  color: #3b82f6 !important;
+  font-weight: 600;
+}
+
+.ant-tabs-content-holder {
+  background-color: white;
+  border-radius: 0 12px 12px 12px;
+  padding: 24px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Slider customization */
+.ant-slider {
+  margin: 16px 8px;
+}
+
+.ant-slider-rail {
+  background-color: #e5e7eb;
+  height: 6px;
+}
+
+.ant-slider-track {
+  background: linear-gradient(90deg, #10b981 0%, #f59e0b 50%, #ef4444 100%);
+  height: 6px;
+}
+
+.ant-slider-handle {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #3b82f6;
+  margin-top: -7px;
+}
+
+.ant-slider-mark-text {
+  font-size: 0.75rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* Modal enhancements */
+.ant-modal {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.ant-modal-header {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-bottom: 2px solid #e5e7eb;
+  padding: 24px;
+}
+
+.ant-modal-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.ant-modal-body {
+  padding: 24px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .ant-card-body {
+    padding: 16px;
+  }
+  
+  .ant-tabs-content-holder {
+    padding: 16px;
+  }
+  
+  .ant-statistic-content {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .ant-card-head {
+    padding: 12px 16px;
+  }
+  
+  .ant-card-body {
+    padding: 12px;
+  }
+}
