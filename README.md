@@ -724,6 +724,6 @@ RESTRICTIONS:
 
 ---
 
-Made with ❤️ by the Bias Audits for LMS AI Team
+Made with ❤️ by the MonteyAI LLC
 
 </div>
